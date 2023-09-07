@@ -1,6 +1,7 @@
 # if error with qt when plt.show(), try belows.
 # Tested on Ubuntu22.04 & Ubuntu20.04 WSL Distribution
 # sudo apt update -q
+# sudo apt install python3-tk #or python3.x-tk (x = python3 version)
 # sudo apt install -y -q build-essential libgl1-mesa-dev
 
 # sudo apt install -y -q libxkbcommon-x11-0
