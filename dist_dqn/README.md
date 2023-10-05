@@ -1,4 +1,4 @@
-## OpenAI Gym Cartpole Dist-DQN Algorithm
+## OpenAI Gym Freeway Dist-DQN Algorithm
 
 ### Test Environment
 ```
