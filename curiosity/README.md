@@ -86,3 +86,20 @@ conda install -c conda-forge libstdcxx-ng
 # if not work after installation, use this option
 # LIBGL_ALWAYS_SOFTWARE=1
 ```
+
+# Training Mario
+
+```bash
+# from scratch
+python curiosity_mario_bros.py
+python test_model.py
+
+# transfer learning
+python curiosity_mario_bros.py <checkpoint-path>
+
+# test a specific checkpoint
+python test_model.py <checkpoint-path>
+```
+
+## Result
+![../images/curiosity/result.png](../images/curiosity/result.png)
