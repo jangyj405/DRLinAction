@@ -34,7 +34,7 @@ class ExperienceReplay:
             print("No data in Memory")
             return None
 
-        ind = np.random.choice(np.arrange(len(self.memory)), batch_size, replace = False)
+        ind = np.random.choice(np.arange(len(self.memory)), batch_size, replace = False)
         batch = [self.memory[i] for i in ind]
         state1_batch = torch.stack([x[0].squeeze(dim = 0) for x in batch])
         action_batch = torch.Tensor([x[1] for x in batch]).long()
